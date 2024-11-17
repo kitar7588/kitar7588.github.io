@@ -70224,7 +70224,7 @@ n=A.dB(A.bo("What can i do?",n==null?t.b.a(n):n,p),p,p)
 s=o.z
 r=s==null
 q=A.dB(A.bo("I'm not perfect,",r?t.b.a(s):s,p),p,p)
-return A.dU(p,A.dC(A.a([n,q,A.dB(A.bo("but surely all I can do is to try my best to do.",r?t.b.a(s):s,p),p,p),this.V0()],t.D),B.bJ,B.W,B.U),p,p,p,p,p,new A.aO(10,this.c.b*0.1,10,10),p)},
+return A.dU(p,A.dC(A.a([n,q,A.dB(A.bo("but surely all I can do is to try my best to do.",r?t.b.a(s):s,p),p,p),this.V0()],t.D),B.bJ,B.W,B.U),p,p,p,p,p,new A.aO(100,this.c.b*0.1,100,10),p)},
 V0(){var s=$.ac
 return new A.rZ(new A.RA(this.c.b*0.3,0.3,!1,!0,B.AZ,B.B_,B.b9,!0),new A.a1E(B.D_,B.Dj,B.DV),new A.RB(new A.aX(new A.a5(s,t.wC),t.Fe)),5,null)}}
 A.a1E.prototype={
