@@ -363,7 +363,7 @@ avA(){var s,r=A.cD().b
 if(r==null)s=null
 else{r=r.canvasKitVariant
 if(r==null)r=null
-s=r}r=A.ay4(A.aqm(B.DM,s==null?"auto":s))
+s=r}r=A.ay4(A.aqm(B.DL,s==null?"auto":s))
 return new A.at(r,new A.aaf(),A.Z(r).h("at<1,v>"))},
 axg(a,b){return b+a},
 PY(){var s=0,r=A.K(t.e),q,p,o
@@ -1730,7 +1730,7 @@ for(s=0;s<p;++s){r=q[s]
 if(r.c===B.a5)r.hW()}},
 ah0(a,b,c){return new A.DX(a,b,c)},
 axQ(a){var s,r,q,p,o,n,m
-$label0$0:for(s=a.length,r=0;r<6;++r){q=B.D7[r]
+$label0$0:for(s=a.length,r=0;r<6;++r){q=B.D6[r]
 p=q.a
 o=p.length
 if(s<o)continue $label0$0
@@ -1854,7 +1854,7 @@ s.Uc()
 return s},
 aqk(a){return new A.Uc($.ac,a)},
 acJ(){var s,r,q,p,o,n=A.aq0(self.window.navigator)
-if(n==null||n.length===0)return B.D8
+if(n==null||n.length===0)return B.D7
 s=A.a([],t.ss)
 for(r=n.length,q=0;q<n.length;n.length===r||(0,A.F)(n),++q){p=n[q]
 o=J.aon(p,"-")
@@ -18013,7 +18013,7 @@ r.toString
 A.l9(r)
 q=a.k(0,"swipeEdge")
 q.toString
-return new A.FY(s,r,B.Dg[A.d_(q)])},
+return new A.FY(s,r,B.Df[A.d_(q)])},
 xb:function xb(a,b){this.a=a
 this.b=b},
 FY:function FY(a,b,c){this.a=a
@@ -25214,7 +25214,7 @@ l.push(new A.dJ(n[0],n[1],n[2],n[3],B.hW[m]))}return l},
 hG(a){var s,r=this.a
 r===$&&A.b()
 r=r.a.getGlyphPositionAtCoordinate(a.a,a.b)
-s=B.Dh[B.c.a3(r.affinity.value)]
+s=B.Dg[B.c.a3(r.affinity.value)]
 return new A.bl(B.c.a3(r.pos),s)},
 CP(a){var s=this.a
 s===$&&A.b()
@@ -31498,7 +31498,7 @@ Xm(){var s=this,r=s.f
 if(r==null){r=s.f=new A.rp(s.b)
 r.d=new A.Uk(s)}return r},
 NT(a){var s,r=this
-if(B.b.q(B.D9,a.type)){s=r.Xm()
+if(B.b.q(B.D8,a.type)){s=r.Xm()
 s.toString
 s.sAd(J.eB(r.b.$0(),B.hx))
 if(r.e!==B.kX){r.e=B.kX
@@ -43607,7 +43607,7 @@ A.qa.prototype={
 F(){return"_CornerId."+this.b}}
 A.ji.prototype={}
 A.oO.prototype={
-iA(){var s,r,q=this,p=A.awG(B.DL,new A.XK(q,q.b.gaJ().ac(0,q.a.gaJ()))),o=q.a
+iA(){var s,r,q=this,p=A.awG(B.DK,new A.XK(q,q.b.gaJ().ac(0,q.a.gaJ()))),o=q.a
 o.toString
 s=p.a
 o=q.md(o,s)
@@ -69869,7 +69869,7 @@ Eo(a){$.abY().n(0,this,a)}}
 A.EI.prototype={
 J(a){var s=t.eC,r=A.a([A.ack(new A.XB(),t.nQ),A.ack(new A.XC(),s),A.ack(new A.XD(),t.Yo)],t.Ds),q=$.ij(),p=q.hD(t.pK)
 s=q.hD(s).a===B.bD?B.ww:B.Oe
-return A.arA(new A.uX(B.Fs,"My Portfolio",p.Ja(a,A.adM(B.R,null),$.alS(),$.alQ()),p.Ja(a,A.adM(B.S,null),$.alR(),$.alP()),s,B.Dm,B.C9,null),r)}}
+return A.arA(new A.uX(B.Fs,"My Portfolio",p.Ja(a,A.adM(B.R,null),$.alS(),$.alQ()),p.Ja(a,A.adM(B.S,null),$.alR(),$.alP()),s,B.Dl,B.C9,null),r)}}
 A.XB.prototype={
 $1(a){return $.ij().hD(t.nQ)},
 $S:422}
@@ -70176,10 +70176,10 @@ s=p.e
 s=A.dB(A.bo("Portfolio",s==null?t.b.a(s):s,q),q,q)
 r=p.z
 return A.dU(q,A.dC(A.a([s,A.dB(A.bo("here you can find some of my projects that I have worked on.",r==null?t.b.a(r):r,q),q,q),A.e1(q,n*0.025,q),this.V_()],t.D),B.bJ,B.W,B.U),q,q,q,q,q,new A.aO(o,n*0.1,o,10),q)},
-V_(){return A.aj5(B.wL,new A.uI(B.DJ,t.ly).ge2().eM(0,new A.ZS(),t.vc).dO(0),B.Ps,25,25)}}
+V_(){return A.aj5(B.wL,new A.uI(B.Dm,t.ly).ge2().eM(0,new A.ZS(),t.vc).dO(0),B.Ps,25,25)}}
 A.ZS.prototype={
-$1(a){var s=a.a,r=B.D6[s]
-return new A.kk(a.b,B.DW[s],r,B.DX[s],B.DK[s],null)},
+$1(a){var s=a.a,r=B.DM[s]
+return new A.kk(a.b,B.DW[s],r,B.DX[s],B.DJ[s],null)},
 $S:432}
 A.wR.prototype={
 aj(){return new A.NB(new A.bt(null,t.XV),B.l)}}
@@ -70226,7 +70226,7 @@ r=s==null
 q=A.dB(A.bo("I'm not perfect,",r?t.b.a(s):s,p),p,p)
 return A.dU(p,A.dC(A.a([n,q,A.dB(A.bo("but surely all I can do is to try my best to do.",r?t.b.a(s):s,p),p,p),this.V0()],t.D),B.bJ,B.W,B.U),p,p,p,p,p,new A.aO(100,this.c.b*0.1,100,10),p)},
 V0(){var s=$.ac
-return new A.rZ(new A.RA(this.c.b*0.3,0.3,!1,!0,B.AZ,B.B_,B.b9,!0),new A.a1E(B.D_,B.Dj,B.DV),new A.RB(new A.aX(new A.a5(s,t.wC),t.Fe)),5,null)}}
+return new A.rZ(new A.RA(this.c.b*0.3,0.3,!1,!0,B.AZ,B.B_,B.b9,!0),new A.a1E(B.D_,B.Di,B.DV),new A.RB(new A.aX(new A.a5(s,t.wC),t.Fe)),5,null)}}
 A.a1E.prototype={
 $3(a,b,c){return new A.cU(B.B1,new A.wR(this.a[c],this.b[c],this.c[c],null),null)},
 $S:433}
@@ -73578,37 +73578,37 @@ B.CZ=A.a(s([B.fL,B.fM]),A.a9("u<rK>"))
 B.D_=A.a(s(["assets/images/icons/software_engineering.png","assets/images/icons/game_development.png","assets/images/icons/web_development.png","assets/images/icons/UIUX.png","assets/images/icons/3D_art.png"]),t.s)
 B.lb=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 B.dd=A.a(s([B.cc,B.bC,B.dX,B.dY,B.fK]),t.QP)
-B.D6=A.a(s(["images/projects/n1golf/icon.png","images/projects/nessus/icon.png","images/projects/psychedelic/icon.png","images/projects/Frog/icon.png","images/projects/sakura_web/icon.png"]),t.s)
-B.Di=A.a(s([137,80,78,71,13,10,26,10]),t.Z)
-B.BG=new A.iH(B.Di,"image/png")
-B.De=A.a(s([71,73,70,56,55,97]),t.Z)
-B.BK=new A.iH(B.De,"image/gif")
-B.Df=A.a(s([71,73,70,56,57,97]),t.Z)
-B.BL=new A.iH(B.Df,"image/gif")
+B.Dh=A.a(s([137,80,78,71,13,10,26,10]),t.Z)
+B.BG=new A.iH(B.Dh,"image/png")
+B.Dd=A.a(s([71,73,70,56,55,97]),t.Z)
+B.BK=new A.iH(B.Dd,"image/gif")
+B.De=A.a(s([71,73,70,56,57,97]),t.Z)
+B.BL=new A.iH(B.De,"image/gif")
 B.Cc=A.a(s([255,216,255]),t.Z)
 B.BJ=new A.iH(B.Cc,"image/jpeg")
 B.CY=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
 B.BI=new A.iH(B.CY,"image/webp")
 B.CM=A.a(s([66,77]),t.Z)
 B.BH=new A.iH(B.CM,"image/bmp")
-B.D7=A.a(s([B.BG,B.BK,B.BL,B.BJ,B.BI,B.BH]),A.a9("u<iH>"))
-B.D8=A.a(s([B.ll]),t.ss)
+B.D6=A.a(s([B.BG,B.BK,B.BL,B.BJ,B.BI,B.BH]),A.a9("u<iH>"))
+B.D7=A.a(s([B.ll]),t.ss)
 B.lc=A.a(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
-B.D9=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
+B.D8=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
 B.Km=new A.xb(0,"left")
 B.Kn=new A.xb(1,"right")
-B.Dg=A.a(s([B.Km,B.Kn]),A.a9("u<xb>"))
+B.Df=A.a(s([B.Km,B.Kn]),A.a9("u<xb>"))
 B.au=new A.xf(0,"upstream")
 B.v=new A.xf(1,"downstream")
-B.Dh=A.a(s([B.au,B.v]),A.a9("u<xf>"))
+B.Dg=A.a(s([B.au,B.v]),A.a9("u<xf>"))
 B.J=new A.kD(0,"rtl")
 B.n=new A.kD(1,"ltr")
 B.hW=A.a(s([B.J,B.n]),A.a9("u<kD>"))
 B.ld=A.a(s([0,0,32776,33792,1,10240,0,0]),t.t)
-B.Dj=A.a(s(["Software Engineering","Game Development","Web Development","UIUX","3D Modelling"]),t.s)
+B.Di=A.a(s(["Software Engineering","Game Development","Web Development","UIUX","3D Modelling"]),t.s)
 B.yN=new A.IW()
-B.Dm=A.a(s([B.yN]),t.a9)
+B.Dl=A.a(s([B.yN]),t.a9)
 B.le=A.a(s([B.hC,B.hD,B.hE,B.t,B.T,B.d1,B.bq,B.hF,B.en]),A.a9("u<eL>"))
+B.Dm=A.a(s(["assets/images/projects/n1golf/logo.png","assets/images/projects/nessus/logo.png","assets/images/projects/psychedelic/logo.png","assets/images/projects/Frog/logo.png","assets/images/projects/sakura_web/logo.png"]),t.s)
 B.Dn=A.a(s(["click","scroll"]),t.s)
 B.DB=A.a(s([]),t.QP)
 B.li=A.a(s([]),A.a9("u<azq>"))
@@ -73649,8 +73649,7 @@ B.dR=new A.ct(16,"ZWJ")
 B.jl=new A.ct(17,"WSegSpace")
 B.wJ=new A.ct(18,"Unknown")
 B.DI=A.a(s([B.ji,B.cG,B.al,B.ft,B.fu,B.jm,B.dS,B.Pq,B.dT,B.dU,B.aS,B.jj,B.jk,B.dQ,B.bl,B.fs,B.dR,B.jl,B.wJ]),A.a9("u<ct>"))
-B.DJ=A.a(s(["images/projects/n1golf/logo.png","images/projects/nessus/logo.png","images/projects/psychedelic/logo.png","images/projects/Frog/logo.png","images/projects/sakura_web/logo.png"]),t.s)
-B.DK=A.a(s(["N1Golf-sims was ahead of the curve in 2022, \nwhich is using above IphoneX device to analyse a golf ball data, and project in to 3D scene using Computer/Mobile. Available at apple store download now!","A VR's Game Of FPS ,\nMy Final Year Project in USC (TW),\nIt is designed from the ground up for VR to provide some of the most thrilling,\nand achieved excellent results in Vision_Get_Wild(TW)","This game is my seniors project, my position is help them in coding side.\nIn this game, you need to keep moving forward and battling,and find the way in the entire scene Progress.\nIn Vision_Get_Wild(TW), it got a excellent result.","This project develop for middle schools of Kaoshiung, The teaching will not bording since those students be able to dissect a frog immersively, like play a game.","This wedsite was worked with Mass studio(HK) and HK local Ebook publisher, \ndeveloped the place where can free to use for someone love HK local works."]),t.s)
+B.DJ=A.a(s(["N1Golf-sims was ahead of the curve in 2022, \nwhich is using above IphoneX device to analyse a golf ball data, and project in to 3D scene using Computer/Mobile. Available at apple store download now!","A VR's Game Of FPS ,\nMy Final Year Project in USC (TW),\nIt is designed from the ground up for VR to provide some of the most thrilling,\nand achieved excellent results in Vision_Get_Wild(TW)","This game is my seniors project, my position is help them in coding side.\nIn this game, you need to keep moving forward and battling,and find the way in the entire scene Progress.\nIn Vision_Get_Wild(TW), it got a excellent result.","This project develop for middle schools of Kaoshiung, The teaching will not bording since those students be able to dissect a frog immersively, like play a game.","This wedsite was worked with Mass studio(HK) and HK local Ebook publisher, \ndeveloped the place where can free to use for someone love HK local works."]),t.s)
 B.lj=A.a(s([B.hK,B.ev,B.d8,B.ey,B.eC,B.cm,B.l8,B.hV,B.aH,B.eD,B.bR,B.d5,B.d6,B.ew,B.d7,B.hL,B.bu,B.hM,B.hN,B.l6,B.aG,B.ex,B.d9,B.da,B.hO,B.hP,B.hQ,B.hR,B.l7,B.hS,B.hT,B.ez,B.db,B.dc,B.hU,B.eA,B.eB]),A.a9("u<ba>"))
 B.wM=new A.qa(0,"topLeft")
 B.wP=new A.qa(3,"bottomRight")
@@ -73660,7 +73659,7 @@ B.wN=new A.qa(1,"topRight")
 B.wO=new A.qa(2,"bottomLeft")
 B.PC=new A.ji(B.wN,B.wO)
 B.PD=new A.ji(B.wO,B.wN)
-B.DL=A.a(s([B.PB,B.PE,B.PC,B.PD]),A.a9("u<ji>"))
+B.DK=A.a(s([B.PB,B.PE,B.PC,B.PD]),A.a9("u<ji>"))
 B.cp=new A.eW(0,"controlModifier")
 B.cq=new A.eW(1,"shiftModifier")
 B.cr=new A.eW(2,"altModifier")
@@ -73683,7 +73682,8 @@ B.eG=A.a(s([B.dt,B.Gd,B.eV,B.Gl,B.qC,B.Gm,B.qA,B.Ge]),t.yv)
 B.z2=new A.nV(0,"auto")
 B.z3=new A.nV(1,"full")
 B.z4=new A.nV(2,"chromium")
-B.DM=A.a(s([B.z2,B.z3,B.z4]),A.a9("u<nV>"))
+B.DL=A.a(s([B.z2,B.z3,B.z4]),A.a9("u<nV>"))
+B.DM=A.a(s(["assets/images/projects/n1golf/icon.png","assets/images/projects/nessus/icon.png","assets/images/projects/psychedelic/icon.png","assets/images/projects/Frog/icon.png","assets/images/projects/sakura_web/icon.png"]),t.s)
 B.eH=A.a(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
 B.DN=A.a(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.up)
 B.bg=new A.cY(1,"fuchsia")
@@ -73774,10 +73774,10 @@ B.dp=new A.d(8589935159)
 B.Dw=A.a(s([B.q5,null,null,B.dp]),t.L)
 B.q6=new A.d(56)
 B.bZ=new A.d(8589935160)
-B.Dk=A.a(s([B.q6,null,null,B.bZ]),t.L)
+B.Dj=A.a(s([B.q6,null,null,B.bZ]),t.L)
 B.q7=new A.d(57)
 B.dq=new A.d(8589935161)
-B.Dl=A.a(s([B.q7,null,null,B.dq]),t.L)
+B.Dk=A.a(s([B.q7,null,null,B.dq]),t.L)
 B.DQ=A.a(s([B.dk,B.dk,B.eO,null]),t.L)
 B.eK=new A.d(4294967555)
 B.Do=A.a(s([B.eK,null,B.eK,null]),t.L)
@@ -73808,7 +73808,7 @@ B.CS=A.a(s([B.dh,null,null,B.dn]),t.L)
 B.di=new A.d(4294968072)
 B.Ce=A.a(s([B.di,null,null,B.dq]),t.L)
 B.DT=A.a(s([B.bU,B.bU,B.cn,null]),t.L)
-B.Ft=new A.cc(["*",B.D1,"+",B.D2,"-",B.D3,".",B.D4,"/",B.D5,"0",B.Dp,"1",B.Dq,"2",B.Dr,"3",B.Ds,"4",B.Dt,"5",B.Du,"6",B.Dv,"7",B.Dw,"8",B.Dk,"9",B.Dl,"Alt",B.DQ,"AltGraph",B.Do,"ArrowDown",B.CN,"ArrowLeft",B.CO,"ArrowRight",B.CP,"ArrowUp",B.CB,"Clear",B.CW,"Control",B.DR,"Delete",B.CU,"End",B.CQ,"Enter",B.CL,"Home",B.CR,"Insert",B.CX,"Meta",B.DS,"PageDown",B.CS,"PageUp",B.Ce,"Shift",B.DT],A.a9("cc<v,R<d?>>"))
+B.Ft=new A.cc(["*",B.D1,"+",B.D2,"-",B.D3,".",B.D4,"/",B.D5,"0",B.Dp,"1",B.Dq,"2",B.Dr,"3",B.Ds,"4",B.Dt,"5",B.Du,"6",B.Dv,"7",B.Dw,"8",B.Dj,"9",B.Dk,"Alt",B.DQ,"AltGraph",B.Do,"ArrowDown",B.CN,"ArrowLeft",B.CO,"ArrowRight",B.CP,"ArrowUp",B.CB,"Clear",B.CW,"Control",B.DR,"Delete",B.CU,"End",B.CQ,"Enter",B.CL,"Home",B.CR,"Insert",B.CX,"Meta",B.DS,"PageDown",B.CS,"PageUp",B.Ce,"Shift",B.DT],A.a9("cc<v,R<d?>>"))
 B.Cs=A.a(s([42,null,null,8589935146]),t.Z)
 B.Ct=A.a(s([43,null,null,8589935147]),t.Z)
 B.Cv=A.a(s([45,null,null,8589935149]),t.Z)
@@ -73824,24 +73824,24 @@ B.CH=A.a(s([54,null,null,8589935158]),t.Z)
 B.CI=A.a(s([55,null,null,8589935159]),t.Z)
 B.CJ=A.a(s([56,null,null,8589935160]),t.Z)
 B.CK=A.a(s([57,null,null,8589935161]),t.Z)
-B.Da=A.a(s([8589934852,8589934852,8589934853,null]),t.Z)
+B.D9=A.a(s([8589934852,8589934852,8589934853,null]),t.Z)
 B.Ch=A.a(s([4294967555,null,4294967555,null]),t.Z)
 B.Ci=A.a(s([4294968065,null,null,8589935154]),t.Z)
 B.Cj=A.a(s([4294968066,null,null,8589935156]),t.Z)
 B.Ck=A.a(s([4294968067,null,null,8589935158]),t.Z)
 B.Cl=A.a(s([4294968068,null,null,8589935160]),t.Z)
 B.Cq=A.a(s([4294968321,null,null,8589935157]),t.Z)
-B.Db=A.a(s([8589934848,8589934848,8589934849,null]),t.Z)
+B.Da=A.a(s([8589934848,8589934848,8589934849,null]),t.Z)
 B.Cg=A.a(s([4294967423,null,null,8589935150]),t.Z)
 B.Cm=A.a(s([4294968069,null,null,8589935153]),t.Z)
 B.Cf=A.a(s([4294967309,null,null,8589935117]),t.Z)
 B.Cn=A.a(s([4294968070,null,null,8589935159]),t.Z)
 B.Cr=A.a(s([4294968327,null,null,8589935152]),t.Z)
-B.Dc=A.a(s([8589934854,8589934854,8589934855,null]),t.Z)
+B.Db=A.a(s([8589934854,8589934854,8589934855,null]),t.Z)
 B.Co=A.a(s([4294968071,null,null,8589935155]),t.Z)
 B.Cp=A.a(s([4294968072,null,null,8589935161]),t.Z)
-B.Dd=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
-B.qf=new A.cc(["*",B.Cs,"+",B.Ct,"-",B.Cv,".",B.Cw,"/",B.Cx,"0",B.Cy,"1",B.Cz,"2",B.CD,"3",B.CE,"4",B.CF,"5",B.CG,"6",B.CH,"7",B.CI,"8",B.CJ,"9",B.CK,"Alt",B.Da,"AltGraph",B.Ch,"ArrowDown",B.Ci,"ArrowLeft",B.Cj,"ArrowRight",B.Ck,"ArrowUp",B.Cl,"Clear",B.Cq,"Control",B.Db,"Delete",B.Cg,"End",B.Cm,"Enter",B.Cf,"Home",B.Cn,"Insert",B.Cr,"Meta",B.Dc,"PageDown",B.Co,"PageUp",B.Cp,"Shift",B.Dd],A.a9("cc<v,R<i?>>"))
+B.Dc=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
+B.qf=new A.cc(["*",B.Cs,"+",B.Ct,"-",B.Cv,".",B.Cw,"/",B.Cx,"0",B.Cy,"1",B.Cz,"2",B.CD,"3",B.CE,"4",B.CF,"5",B.CG,"6",B.CH,"7",B.CI,"8",B.CJ,"9",B.CK,"Alt",B.D9,"AltGraph",B.Ch,"ArrowDown",B.Ci,"ArrowLeft",B.Cj,"ArrowRight",B.Ck,"ArrowUp",B.Cl,"Clear",B.Cq,"Control",B.Da,"Delete",B.Cg,"End",B.Cm,"Enter",B.Cf,"Home",B.Cn,"Insert",B.Cr,"Meta",B.Db,"PageDown",B.Co,"PageUp",B.Cp,"Shift",B.Dc],A.a9("cc<v,R<i?>>"))
 B.Fu=new A.cc([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],A.a9("cc<i,v>"))
 B.lr=new A.d(32)
 B.Eh=new A.d(33)
